@@ -6,5 +6,5 @@ Bowling Game
 3) Download zip from the URL - https://github.com/adigaag/BowlingGame.git.
 4) Unzip to c drive. BowlingGame folder will be created in C drive
 5) open command line and navigate to directory C:\BowlingGame and run mvn clean install. Junit Test classes will run too.
-6) Navigate to C:\Users\<username>\.m2\repository\com\bowlinggame\business\BowlingGame\1.0 on command line and tyep the below command
-java -cp bowlinggame-1.0.jar com.bowlinggame.business.BowlingGame <replace with input integer with space>
+6) Navigate to C:\BowlingGame\target on command line and type the below command
+java -cp BowlingGame.jar com.bowlinggame.business.BowlingGame <pass input as command line arguments with space representing each attempt as metioned in the pdf>
